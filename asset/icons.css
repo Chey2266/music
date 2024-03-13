@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0%;
+  }
+  .im{
+    
+    width: 250px;
+  }
+  header{
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  nav{
+    width: 90%;
+    height: 100px;
+    text-align: end;
+    float: left;
+    padding: 25px;
+  }
+  .clearfix{
+    clear: both;
+    display: table;
+  }
+  .logo{
+    width: 10%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 25px;
+    
+  }
+  .bt{
+    margin: 0;
+    padding: 0;
+    color: white;
+    width: 15%;
+    background-color: rgb(244, 158, 0);
+    height: 100px;
+  }
+  nav button{
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    background-color:white;
+    border: none;
+  }
+  .main{
+    background: url("https://upload.wikimedia.org/wikipedia/commons/1/12/Trimbakeshwar_Temple-Nashik-Maharashtra-1.jpg") no-repeat center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+  }
+  .bg{
+    font-size: 30px;
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.474);
+  }
+  .b{
+    background-color: white;
+    border: 0;
+    color: black;
+    height: 40px;
+    width: 200px;
+  }
+  button:hover{
+    background-color: orange;
+  }
+  .ab{
+    justify-content: center;
+    width: 100%;
+  }
+  .about img{
+    width: 75%;
+    height: 100%;
+    padding-left: 100px;
+  }
+  .about{
+    width: 40%;
+    float: left;
+  }
+  .mat{
+    width: 60%;
+  }
+  .abb{
+    width: 100%;
+  }
+  .matt{
+    justify-content: center;
+    padding-left: 250px;
+    width: 60%;
+    float: left;
+  }
+  .aboutt{
+    width: 40%;
+    float: left;
+
+  }
+  .aboutt img{
+    width: 350px;
+  }
+  .courses div{
+    width: 25%;
+    height: 100%;
+    float: left;
+  }
+  .fig{
+    width: 100%;
+    float: left;
+  }
+  figure img{
+    width: 300px;
+  }
+  figure{
+    background-color: white;
+    box-shadow: 5px 10px 10px grey;
+    margin: 10px;
+    text-align: center;
+  }
+  figcaption{
+    background-color: white ;
+    padding: 0px 0px 5px 0px;
+  }
+  .figg{
+    margin: 50px;
+    padding-left: 50px;
+    width: 24.5%;
+    float: left;
+  }
+  .bb{
+    background-color: white;
+    border: 0;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .bb:hover{
+    background-color: orange;
+  }
+  .mainn{
+    background: url("https://5.imimg.com/data5/AD/HC/GLADMIN-64391364/devotional-tour-packages-500x500.jpg") no-repeat center;
+    width: 100%;
+    background-size: 100%; 
+    height: 30vh;    
+  }
+  .bgg{
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    height: 30vh;
+    background-color: rgba(0, 0, 0, 0.482);
+  }
+  footer{
+    text-align: center;
+  }
+  form{
+    text-align: center;
+    width: 100%;
+  }
+  input ,textarea{
+    height: 40px;
+    margin-bottom: 30px;
+    width: 50%;
+  }

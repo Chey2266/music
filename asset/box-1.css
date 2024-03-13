@@ -1,0 +1,36 @@
+div{
+    width: 50%;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: black;
+    padding: 50px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    border: 5px solid aqua;
+}
+header{
+    width: 100%;
+    height: 100px;
+  
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+    border-bottom: 2px solid lightgray;
+}
+header button{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+div button:first-child{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+}
+.courses div{
+    width: 25%;
+    height: 100%;
+    background-color: red;
+}

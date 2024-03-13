@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+.clearfix{
+    clear: both;
+    display: table;
+}
+.float{
+    float: left;
+}
+header{
+    width: 100%;
+    padding: 25px 130px 25px 130px;
+    position: fixed;
+}
+header div, nav{
+    width: 50%;
+}
+.logo img{
+    width: 164px;
+}
+nav button{
+    width: 100px;
+    height: 38px;
+    border: none;
+    background-color: rgb(229,9,20);
+    color: white;
+}
+nav button:hover, select:hover{
+    background-color: black;
+    cursor:pointer;
+}
+nav select{
+    width: 120px;
+    height: 38px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.488);
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+}
+nav{
+    text-align: end;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+    background-image: url(banner.jpg);
+    background-size: cover;
+    border-bottom: 8px solid lightgray;
+}
+.dark{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    color: white;
+    text-align: center;
+}
+.content h1:hover{   
+    border: 3px solid red;
+    cursor: pointer;
+}
+.content h1{
+    font-size: 50px;
+    margin: 0%;
+    border: 3px solid transparent;
+}
+input[type="email"]{
+    width: 350px;
+    background-color:rgba(0, 0, 0, 0.442);
+    color: white;
+    height: 50px;
+    border: 1px solid white;
+    padding: 20px;
+}
+input[type="submit"]{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(229,9,20);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+input[type="email"]:hover{
+    background-color: red;
+}
+input[type="email"]:focus{
+    background-color: gray;
+}
+.sub{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid gray;
+}
+.sub1{
+    width: 50%;
+    padding: 150px 0px 0px 200px;
+}
+.image1, .image2{
+    width: 50%;
+}
+.image1 img{
+    width: 585px;
+    height: 468.5px;
+}
+.sub2{
+    width: 50%;
+    padding: 0px 0px 0px 150px;
+}
+.image2{
+    padding: 150px 150px 0px 0px;
+}
+.detail{
+    width: 100%;
+    background-color: black;    
+}
+
+.sub4{
+    width: 100%;
+}
+.sub4 h1{
+    font-size: 30px;
+    color: white;
+}
+.detail .sub4{
+    display: flex;
+    justify-content: center;
+}
+.detail .sub5{
+    display: flex;
+
+}
+.sub5{
+    padding: 10px;
+    width: 80%;
+    font-size: 20px;
+    background-color: gray;
+    color: white;
+}
+.sub5 div{
+    padding: 20px;
+}
+.detail.sub6{
+    width: 80%;
+}
+.sub6{
+    background-color: gray;
+}
+.content p{
+    width: 50%;
+    text-align: justify;
+    margin: auto;
+} 
+.content p::first-line{
+    background-color: red;
+}
+.content p::first-letter{
+    font-size: 50px;
+    background-color: white;
+    color: red;
+}
+::selection{
+    background-color: red;
+}
+.content h1::after{
+    content: "";
+    width: 100%;
+    display: block;
+    height: 20px;
+    background-color: white;    
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.content h1{
+    position: relative;
+}

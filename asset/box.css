@@ -1,0 +1,10 @@
+    div{
+        width: 40%;
+        text-align: justify;
+        background-color: cornflowerblue;
+        color: black;
+        padding: 50px 30px 100px 20px;
+        margin-left: 30%;
+        margin-bottom: 30px;
+        box-sizing: border-box;
+    }
